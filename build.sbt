@@ -2,9 +2,9 @@ val scala212 = "2.12.21"
 val scala213 = "2.13.18"
 val scala3   = "3.3.7"
 
-val mUnit           = "1.0.0"
-val mUnitScalaCheck = "1.0.0"
-val discipline      = "1.7.0"
+val mUnit           = "1.3.0-WASM"
+val mUnitScalaCheck = "1.2.0-WASM"
+val discipline      = "1.7-WASM"
 
 Global / onChangedBuildSource := ReloadOnSourceChanges
 
