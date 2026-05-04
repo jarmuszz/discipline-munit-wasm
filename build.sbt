@@ -10,7 +10,7 @@ Global / onChangedBuildSource := ReloadOnSourceChanges
 
 inThisBuild(
   List(
-    tlBaseVersion      := "2.0",
+    version      := "2.0-WASM",
     scalaVersion       := scala213,
     crossScalaVersions := Seq(scala212, scala213, scala3),
     licenses           := List(
