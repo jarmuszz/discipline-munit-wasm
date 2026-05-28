@@ -4,7 +4,9 @@ val scala3   = "3.3.7"
 
 val mUnit           = "1.3.0-WASM"
 val mUnitScalaCheck = "1.2.0-WASM"
-val discipline      = "1.7-WASM"
+val discipline      = "1.7.0-110-7658404-SNAPSHOT"
+
+ThisBuild / resolvers += "central-snapshots" at "https://central.sonatype.com/repository/maven-snapshots/"
 
 Global / onChangedBuildSource := ReloadOnSourceChanges
 
