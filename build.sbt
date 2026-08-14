@@ -2,9 +2,9 @@ val scala212 = "2.12.21"
 val scala213 = "2.13.18"
 val scala3   = "3.3.8"
 
-val mUnit           = "1.3.3-WASM"
+val mUnit           = "1.3.5-WASM"
 val mUnitScalaCheck = "1.3.0-WASM"
-val discipline      = "1.7.0-110-7658404-SNAPSHOT"
+val discipline      = "1.7-WASM"
 
 ThisBuild / resolvers += "central-snapshots" at "https://central.sonatype.com/repository/maven-snapshots/"
 
